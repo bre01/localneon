@@ -11,8 +11,14 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+
+
+
+
+
+
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-		return new Response('Hello World!');
+		return new Response('very hot indeed');
 	},
 };
